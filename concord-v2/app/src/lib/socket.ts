@@ -3,7 +3,7 @@ import type { WsIn } from "../types";
 /* ⚠️ EDIT THIS after you run `npx wrangler deploy` in /worker —
    paste the URL wrangler prints, with wss:// instead of https://
    e.g. "wss://concord-realtime.michaelnmotyka.workers.dev"        */
-export const WORKER_WS_URL = "wss://concord-realtime.YOUR-SUBDOMAIN.workers.dev";
+export const WORKER_WS_URL = "https://concord-realtime.michaelnmotyka.workers.dev";
 
 type Listener = (ev: WsIn) => void;
 
