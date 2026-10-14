@@ -150,3 +150,5 @@ from the panel afterwards.
   sending a Firebase ID token and verifying its JWT in the worker.
 - The `123abc` trigger is visible in the bundled JS. Change `ADMIN_TRIGGER`
   in `app/src/lib/firebase.ts` before deploying if your friends read source.
+
+<!-- production domain: concordapp.dev -->
